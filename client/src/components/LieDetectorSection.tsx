@@ -1,4 +1,4 @@
-import { useState } from 'react';
+﻿import { useState } from 'react';
 import {
   ResponsiveContainer,
   LineChart,
@@ -231,7 +231,7 @@ export default function LieDetectorSection({ datasets }: Props) {
           className="text-sm"
           style={{ color: 'var(--color-muted)' }}
         >
-          Both empires produced elaborate narratives about science serving collective good. The economy was the lie detector.
+          Both empires told elaborate stories about science serving the public good. The economy was the lie detector.
         </p>
       </div>
 

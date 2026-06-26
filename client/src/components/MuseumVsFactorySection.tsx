@@ -1,4 +1,4 @@
-import type { EmpireState } from '../types';
+﻿import type { EmpireState } from '../types';
 import { SPACE_CARDS } from '../data/constants';
 
 interface Props {
@@ -20,7 +20,7 @@ export default function MuseumVsFactorySection({ empire }: Props) {
         className="text-sm mb-8"
         style={{ color: 'var(--color-muted)' }}
       >
-        Miles apart, same occupation. The museum was <em>performed</em> — preserved and publicised. The factory was <em>extracted</em> — seized and worked. The contrast reveals what pan-Asian ideology meant in practice.
+        Miles apart, same occupation. The museum was <em>performed</em>: preserved and publicised. The factory was <em>extracted</em>: seized and worked. The contrast reveals what pan-Asian ideology meant in practice.
       </p>
 
       <div className="flex flex-col gap-8">
@@ -125,7 +125,7 @@ export default function MuseumVsFactorySection({ empire }: Props) {
           className="text-sm italic leading-relaxed"
           style={{ color: 'var(--color-muted)' }}
         >
-          The museum and the factory were never far apart — a few miles of occupied Singapore separated them. One was publicised as proof of Japanese cultural stewardship. The other was simply taken. The ideology of the Co-Prosperity Sphere expressed itself in the gap between these two treatments.
+          The museum and the factory were never far apart. A few miles of occupied Singapore separated them. One was publicised as proof of Japanese cultural stewardship. The other was simply taken. The ideology of the Co-Prosperity Sphere showed itself in the difference between those two choices.
         </p>
       </div>
     </section>
